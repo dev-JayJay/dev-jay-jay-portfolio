@@ -3,6 +3,9 @@
     background-color: #0049B7;
     border-radius: 5px;
 }
+.ButtonContainer:hover {
+    cursor: pointer !important;
+}
 .ButtonContainer p {
     padding: 10px 15px;
     margin: 0;

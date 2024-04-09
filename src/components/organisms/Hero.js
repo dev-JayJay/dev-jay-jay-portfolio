@@ -56,13 +56,13 @@ const Hero = () => {
           <div className="ImageWrapper"></div>
         </div>
       </div>
-      <p className="random one">#HTML</p>
+      {/* <p className="random one">#HTML</p>
       <p className="random two">#CSS</p>
       <p className="random three">#JAVASCRIPT</p>
       <p className="random four">#REACT</p>
       <p className="random five">#NEXT</p>
       <p className="random six">#PHP</p>
-      <p className="random seven">#MySQL</p>
+      <p className="random seven">#MySQL</p> */}
     </div>
   );
 };
