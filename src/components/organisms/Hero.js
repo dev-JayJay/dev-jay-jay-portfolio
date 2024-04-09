@@ -52,8 +52,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="ImageSection">
-          {/* <img src="/image/jayjay.jpeg" alt="" /> */}
-          <div className="ImageWrapper"></div>
+          <img className="ImageWrapper" src="/image/hero1.png" alt="heroImage" />
         </div>
       </div>
       {/* <p className="random one">#HTML</p>
