@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import PageFooter from "./components/pages/PageFooter";
 import PageHero from "./components/pages/PageHero";
+import PageAbout from "./components/pages/PageAbout";
 import Button from "./components/atoms/button";
 import {
   FaSquareGithub,
@@ -17,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <div className={`SideBar ${showMenu ? "" : "show"}`}>
-        <div className="Profile"></div>
+        <img className="Profile" src="/image/newJay.png" alt="ProfileImage" />
         <ul>
           {nav.map((item, index) => (
             <>
@@ -50,6 +51,7 @@ function App() {
           {showMenu ? <Button text="&#9776;" /> : <Button text="&larr;" />}
         </div>
         <PageHero />
+        <PageAbout />
         <PageFooter />
       </div>
     </div>
