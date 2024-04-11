@@ -1,0 +1,9 @@
+/*Technologies  Card Styles */
+.Container {
+    display: flex;
+    gap: 1.5px;
+    width: 80px;
+    color: #fff;
+    background-color: #0049B7;
+    border-radius: 5px;
+}
