@@ -17,7 +17,7 @@ const Hero = () => {
           <h5>
             {" "}
             Hello!
-            <br /> I'm <span>John Jonathan,</span>
+            <br /> I'm <span>Dev-Jay-Jay,</span>
           </h5>
           <p>
             a passionate and creative web developer. I specialize in crafting
