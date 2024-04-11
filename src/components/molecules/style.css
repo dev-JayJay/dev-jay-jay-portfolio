@@ -1,9 +1,15 @@
 /*Technologies  Card Styles */
 .Container {
     display: flex;
+    flex-direction: row;
     gap: 1.5px;
-    width: 80px;
     color: #fff;
     background-color: #0049B7;
-    border-radius: 5px;
+    border-radius: 21.5px;
+    padding: 10px 15.5px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 13.3px;
 }
