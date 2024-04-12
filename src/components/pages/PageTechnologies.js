@@ -59,4 +59,12 @@ const Technology = [
     icon: "#",
     lang: "Redux",
   },
+  {
+    icon: "#",
+    lang: "PHP",
+  },
+  {
+    icon: "#",
+    lang: "MySql",
+  },
 ];
