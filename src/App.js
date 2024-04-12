@@ -12,6 +12,7 @@ import {
   FaSquareFacebook,
 } from "react-icons/fa6";
 import PageTechnologies from "./components/pages/PageTechnologies";
+import PageComment from "./components/pages/PageComment";
 
 function App() {
   const [showMenu, setShowMenu] = useState(true);
@@ -54,6 +55,7 @@ function App() {
         <PageHero />
         <PageAbout />
         <PageTechnologies />
+        <PageComment />
         <PageFooter />
       </div>
     </div>
