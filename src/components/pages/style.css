@@ -115,3 +115,27 @@
     justify-content: center;
     gap: 20px;
 }
+
+/* Project Card Style */ 
+.ProjectPageWrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.ProjectPageWrapper h5 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #3b7ee4;
+  margin: 50px 0 35px 0;
+  text-align: center;
+  padding: 0;
+}
+.ProjectPageContainer {
+  margin: 10px auto;
+  width: 96%;
+  height :auto;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ProjectPageContainer div {
+  padding: 15px;
+}
