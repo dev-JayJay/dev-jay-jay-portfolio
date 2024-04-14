@@ -13,6 +13,7 @@ import {
 } from "react-icons/fa6";
 import PageTechnologies from "./components/pages/PageTechnologies";
 import PageComment from "./components/pages/PageComment";
+import PageProject from "./components/pages/PageProject";
 
 function App() {
   const [showMenu, setShowMenu] = useState(true);
@@ -55,6 +56,7 @@ function App() {
         <PageHero />
         <PageAbout />
         <PageTechnologies />
+        <PageProject />
         <PageComment />
         <PageFooter />
       </div>
