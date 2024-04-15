@@ -69,19 +69,30 @@
     /* border: 1px solid #000; */
 }
 .ProjectImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
     margin: 0 auto;
     width: 60%;
+    height: 70vh;
     border-radius: 9px;
     border: 1px solid #0049B7;
+    overflow: hidden;
 }
 .ProjectImageWrapper img {
+    padding: 0;
+    margin: 0;
     border-radius: 9px;
+    text-align: center;
+    object-fit: contain;
 }
 .ProjectImage {
+    padding: 0;
+    margin: 0;
+    text-align: center;
     width: 100%;
-    height: 50vh;
-    background-size: contain;
-    background-position: fill;
+    height: 100%;
 }
 .ProjectTextContainer {
     width: 39%;
@@ -109,12 +120,13 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .techWrapper div {
     margin: 0;
     padding: 5px 7.3px;
     display: flex;
-    gap: 0;
+    gap: 0px;
     flex-direction: row;
     text-align: center;
     justify-content: center;
@@ -124,4 +136,13 @@
     font-weight: bold;
     white-space: nowrap;
     word-spacing: -0.2rem;
+}
+.projectButtonWrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+.projectButtonWrapper div {
+    padding: 0;
+    margin: 0;
 }

@@ -2,6 +2,7 @@
 .ButtonContainer {
     background-color: #0049B7;
     border-radius: 5px;
+    color: #e9e6e6;
 }
 .ButtonContainer:hover {
     cursor: pointer !important;
