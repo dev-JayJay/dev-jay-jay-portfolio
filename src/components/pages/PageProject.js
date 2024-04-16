@@ -59,10 +59,10 @@ const PageContent = [
         img: "/image/schovelaVersion1.1.png",
       },
       {
-        img: "/image/schovelaVersion1.2.png",
+        img: "/image/version2.png",
       },
       {
-        img: "/image/check.png",
+        img: "/image/schovelaVersion1.2.png",
       },
     ],
     name: "Schovela Landing Page Version 1 & 2",
@@ -103,9 +103,9 @@ const PageContent = [
         img: "/image/check.png",
       },
     ],
-    name: "Schovela Version 1 & 2",
+    name: "Tidmuv Web Application",
     content:
-      "I'm John Jonathan Gaiya, a cool-headed Software Developer and avid learner. I'm passionate about growth, both for myself and others. Let's code and grow together!",
+      "A platform that connects senders and travelers, ensuring that parcels reach their destination with speed, security, and ease. The Tidmuv community redefine the way you send and receive packages.",
     technologies: [
       {
         icon: "</>",
@@ -118,6 +118,14 @@ const PageContent = [
       {
         icon: "</>",
         text: "Css",
+      },
+      {
+        icon: "</>",
+        text: "Redux",
+      },
+      {
+        icon: "</>",
+        text: "TypeScript",
       },
     ],
   },
@@ -133,21 +141,33 @@ const PageContent = [
         img: "/image/check.png",
       },
     ],
-    name: "Schovela Version 1 & 2",
+    name: "Real Estate Management",
     content:
       "I'm John Jonathan Gaiya, a cool-headed Software Developer and avid learner. I'm passionate about growth, both for myself and others. Let's code and grow together!",
     technologies: [
       {
         icon: "</>",
-        text: "Next",
+        text: "Html",
       },
       {
         icon: "#",
-        text: "Styled Component",
+        text: "CSS",
       },
       {
         icon: "</>",
-        text: "Css",
+        text: "JavaScript",
+      },
+      {
+        icon: "</>",
+        text: "BootStrap",
+      },
+      {
+        icon: "</>",
+        text: "PHP",
+      },
+      {
+        icon: "</>",
+        text: "MySql",
       },
     ],
   },
