@@ -72,6 +72,22 @@
   font-size: 18.3px;
   color: #000;
 }
+@media screen and (max-width: 768px) {
+  .AboutContainer {
+    width: 98%;
+    flex-direction: column;
+  }
+  .ImageSection {
+    width: 100%;
+  }
+  .AboutImage {
+    width: 100%;
+  }
+  .TextSection div {
+    width: 100%;
+    text-align: center;
+  }
+}
 /* Technologies Page */
 .TechnologyWrapper {
   width: 100%;
@@ -140,4 +156,10 @@
 }
 .ProjectPageContainer div {
   padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .ProjectPageContainer {
+   
+  }
 }

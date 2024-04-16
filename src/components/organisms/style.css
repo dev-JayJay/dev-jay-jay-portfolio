@@ -143,3 +143,22 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .HeroContainer {
+    flex-direction: column;
+    gap: 0;
+  }
+  .TextSection {
+    width: 91%;
+    margin: 0 auto;
+  }
+  .ButtonWrapper {
+    gap: 4px;  
+}
+  .ImageSection {
+    padding: 25px 0 0 0;
+    width: 75%;
+    margin: 0 auto;
+  }
+}

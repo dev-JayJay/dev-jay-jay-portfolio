@@ -138,11 +138,39 @@
     word-spacing: -0.2rem;
 }
 .projectButtonWrapper {
-    width: 50%;
+    width: 35%;
     margin: 0 auto;
     padding: 0;
+    border-radius: 10px;
+    background-color: #0049B7;
 }
-.projectButtonWrapper div {
-    padding: 0;
+.projectButtonWrapper a {
+    padding: 7px 15px;
     margin: 0;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.projectButtonWrapper a:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .ProjectContainer {
+        padding : 0;
+        flex-direction: column;
+    }
+    .ProjectImageWrapper {
+        width: 90%;
+        height: 40vh;
+    }
+    .ProjectTextContainer {
+        width: 98%;
+    }
+    .techWrapper div {
+       padding: 5px 5px;
+    }
+    .projectButtonWrapper {
+        width: 80%;
+    }
 }

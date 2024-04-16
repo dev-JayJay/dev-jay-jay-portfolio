@@ -56,42 +56,38 @@ const PageContent = [
   {
     image: [
       {
-        img: "/image/hero1.png",
+        img: "/image/schovelaVersion1.1.png",
       },
       {
-        img: "/image/jayjay.jpeg",
+        img: "/image/schovelaVersion1.2.png",
       },
       {
         img: "/image/check.png",
       },
     ],
-    name: "Schovela Version 1 & 2",
+    name: "Schovela Landing Page Version 1 & 2",
     content:
-      "I'm John Jonathan Gaiya, a cool-headed Software Developer and avid learner. I'm passionate about growth, both for myself and others. Let's code and grow together!",
+      "Free And Seamless Access To Educational Resoures Including High Quality Pdfs, Images And Videos.Elevate Your Educational Journey With Schovela - Where Innovation Meets Education.",
     technologies: [
       {
         icon: "</>",
-        text: "One",
+        text: "React",
       },
       {
         icon: "#",
-        text: "Two",
+        text: "Tailwind css",
       },
       {
         icon: "</>",
-        text: "check",
+        text: "Next",
       },
       {
         icon: "</>",
-        text: "One",
+        text: "css",
       },
       {
         icon: "#",
-        text: "Two",
-      },
-      {
-        icon: "</>",
-        text: "Three",
+        text: "Styled Component",
       },
     ],
   },
