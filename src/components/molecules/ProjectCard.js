@@ -1,6 +1,5 @@
 import "./style.css";
 import React from "react";
-import Button from "../atoms/button";
 import TechnologiesCard from "../molecules/TechnologiesCard";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -56,7 +55,7 @@ const ProjectCard = ({ image, name, content, technologies }) => {
               ))}
             </div>
             <div className="projectButtonWrapper">
-              <Button text="See Repo" />
+              <a href="/">See Repo</a>
             </div>
           </div>
         </div>
