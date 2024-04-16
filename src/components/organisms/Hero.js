@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
           <div className="ButtonWrapper">
             <Button text="Download Resume" />
-            <Button text="Contact Me" />
+            <Button text="Send a Message" />
           </div>
           <div className="IconsWrapper">
             <a href="/">
