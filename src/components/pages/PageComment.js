@@ -37,13 +37,13 @@ const comment = [
   },
   {
     image: "/image/tolujohn.jpeg",
-    name: "Tolu john ",
+    name: "Tolu John ",
     role: "Full stack Software dev",
     comment: "John Jonathan is one the amazing software developers I’ve ever worked with, so fast in development, delivers   Product fast and always willing to learn and use new technologies.",
   },
   {
     image: "/image/hero1.png",
-    name: "SamSon Onifade",
+    name: "Samson Onifade",
     role: "Backend Developer",
     comment: "Your software development skills are impressive! The design is clean, the functionality is smooth, and the user experience is top-notch. Keep up the excellent work!",
   },

@@ -19,7 +19,7 @@ const responsive = {
   },
 };
 
-const ProjectCard = ({ image, name, content, technologies }) => {
+const ProjectCard = ({ image, name, content, technologies, link }) => {
   return (
     <div className="ProjectWrapper">
       <div className="ProjectContainer">
@@ -29,9 +29,8 @@ const ProjectCard = ({ image, name, content, technologies }) => {
           autoPlay={true}
           autoPlaySpeed={10000}
           transitionDuration={400}
-          infinite 
+          infinite
           className="ProjectImageWrapper"
-
           removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
         >
           {image.map((item, index) => (
@@ -40,7 +39,7 @@ const ProjectCard = ({ image, name, content, technologies }) => {
               className="ProjectImage"
               src={item.img}
               alt={name}
-              // style={{ 
+              // style={{
               //   backgroundImage: 'url(path/to/your/image.jpg)',
               //   backgroundSize: 'cover',
               //   backgroundPosition: 'center',
@@ -62,7 +61,7 @@ const ProjectCard = ({ image, name, content, technologies }) => {
               ))}
             </div>
             <div className="projectButtonWrapper">
-              <a href="/">See Repo</a>
+              <a href={link}>See Repo</a>
             </div>
           </div>
         </div>

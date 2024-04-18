@@ -43,6 +43,7 @@ const PageProject = () => {
             name={item.name}
             content={item.content}
             technologies={item.technologies}
+            link={item.link}
           />
         ))}
       </Carousel>
@@ -66,11 +67,12 @@ const PageContent = [
       },
     ],
     name: "Schovela Landing Page Version 1 & 2",
+    link : "https://github.com/dev-jay-jay/SchoVela",
     content:
       "Free And Seamless Access To Educational Resoures Including High Quality Pdfs, Images And Videos.Elevate Your Educational Journey With Schovela - Where Innovation Meets Education.",
     technologies: [
       {
-        icon: "</>",
+        icon: "#",
         text: "React",
       },
       {
@@ -78,12 +80,12 @@ const PageContent = [
         text: "Tailwind css",
       },
       {
-        icon: "</>",
+        icon: "#",
         text: "Next",
       },
       {
-        icon: "</>",
-        text: "css",
+        icon: "#",
+        text: "CSS",
       },
       {
         icon: "#",
@@ -104,11 +106,12 @@ const PageContent = [
       },
     ],
     name: "Tidmuv Web Application",
+    link : "https://tidmuv-web.vercel.app/",
     content:
       "A platform that connects senders and travelers, ensuring that parcels reach their destination with speed, security, and ease. The Tidmuv community redefine the way you send and receive packages.",
     technologies: [
       {
-        icon: "</>",
+        icon: "#",
         text: "Next",
       },
       {
@@ -116,15 +119,15 @@ const PageContent = [
         text: "Styled Component",
       },
       {
-        icon: "</>",
-        text: "Css",
+        icon: "#",
+        text: "CSS",
       },
       {
-        icon: "</>",
+        icon: "#",
         text: "Redux",
       },
       {
-        icon: "</>",
+        icon: "#",
         text: "TypeScript",
       },
     ],
@@ -142,12 +145,13 @@ const PageContent = [
       },
     ],
     name: "Real Estate Management",
+    link : "https://github.com/dev-jay-jay/Real-Estate-Project-",
     content:
       "Real Estate Management system (A Personal Project), facilitating property listings, client management, and transaction tracking. Streamlined processes, enhancing user experience and efficiency. Implemented features for property search, viewing and optimizing the real estate lifecycle.",
     technologies: [
       {
         icon: "#",
-        text: "Html",
+        text: "HTML",
       },
       {
         icon: "#",
