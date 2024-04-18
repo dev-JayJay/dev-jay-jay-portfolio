@@ -132,21 +132,21 @@ const PageContent = [
   {
     image: [
       {
-        img: "/image/hero1.png",
+        img: "/image/real1.jpeg",
       },
       {
-        img: "/image/jayjay.png",
+        img: "/image/real2.jpeg",
       },
       {
-        img: "/image/check.png",
+        img: "/image/real3.jpeg",
       },
     ],
     name: "Real Estate Management",
     content:
-      "I'm John Jonathan Gaiya, a cool-headed Software Developer and avid learner. I'm passionate about growth, both for myself and others. Let's code and grow together!",
+      "Real Estate Management system (A Personal Project), facilitating property listings, client management, and transaction tracking. Streamlined processes, enhancing user experience and efficiency. Implemented features for property search, viewing and optimizing the real estate lifecycle.",
     technologies: [
       {
-        icon: "</>",
+        icon: "#",
         text: "Html",
       },
       {
@@ -154,19 +154,19 @@ const PageContent = [
         text: "CSS",
       },
       {
-        icon: "</>",
+        icon: "#",
         text: "JavaScript",
       },
       {
-        icon: "</>",
+        icon: "#",
         text: "BootStrap",
       },
       {
-        icon: "</>",
+        icon: "#",
         text: "PHP",
       },
       {
-        icon: "</>",
+        icon: "#",
         text: "MySql",
       },
     ],
