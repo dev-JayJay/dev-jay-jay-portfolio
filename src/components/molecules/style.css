@@ -31,22 +31,30 @@
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 .CommentContainer img {
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
     margin: 0;
     padding: 0;
+    border-radius: 7px;
+    border: 1px solid #3b7ee4;
+    border-width: 8px;
 }
-
+.CommentText {
+    margin: 0 auto;
+    width: 97%;
+}
 .CommentText h5 {
     font-size: 18px;
     font-weight: bold;
     color: #0049B7;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 .CommentText span {
     font-size: 15px;
     font-weight: 600;
+    text-align: center;
 }
 .CommentText p {
     font-size: 15px;
@@ -55,6 +63,12 @@
     padding: 5px 13px;
     text-align: center;
 }
+@media screen and (max-width: 768px) {
+    .commentcontainer {
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+  }
 /* Project Card Style */
 .ProjectWrapper {
     width: 100%;

@@ -125,11 +125,13 @@
 }
 .commentcontainer {
     margin: 15px auto;
-    width: 85%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.commentcontainer div {
+  width: 50vh;
 }
 
 /* Project Card Style */ 
