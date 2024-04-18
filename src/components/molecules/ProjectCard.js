@@ -31,6 +31,7 @@ const ProjectCard = ({ image, name, content, technologies }) => {
           transitionDuration={400}
           infinite 
           className="ProjectImageWrapper"
+
           removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
         >
           {image.map((item, index) => (
@@ -39,6 +40,12 @@ const ProjectCard = ({ image, name, content, technologies }) => {
               className="ProjectImage"
               src={item.img}
               alt={name}
+              // style={{ 
+              //   backgroundImage: 'url(path/to/your/image.jpg)',
+              //   backgroundSize: 'cover',
+              //   backgroundPosition: 'center',
+              //   backgroundRepeat: 'no-repeat'
+              // }}
             />
           ))}
         </Carousel>
