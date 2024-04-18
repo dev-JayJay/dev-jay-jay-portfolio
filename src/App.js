@@ -31,16 +31,16 @@ function App() {
             </>
           ))}
           <div className="AppIconsWrapper">
-            <a href="/">
+            <a href="https://web.facebook.com/profile.php?id=100073913353405">
               <FaSquareFacebook />
             </a>
-            <a href="/">
+            <a href="https://www.instagram.com/favouringjay/">
               <FaSquareInstagram />
             </a>
-            <a href="/">
+            <a href="https://twitter.com/favouringjay/">
               <FaSquareXTwitter />
             </a>
-            <a href="/">
+            <a href="https://github.com/dev-jay-jay/">
               <FaSquareGithub />
             </a>
             <a href="/">
@@ -53,12 +53,12 @@ function App() {
         <div className="menu" onClick={() => setShowMenu(!showMenu)}>
           {showMenu ? <Button text="&#9776;" /> : <Button text="&larr;" />}
         </div>
-        <PageHero />
-        <PageAbout />
-        <PageTechnologies />
-        <PageProject />
-        <PageComment />
-        <PageFooter />
+        <PageHero id="#Home" />
+        <PageAbout id="#About"/>
+        <PageTechnologies id="#Portfolio" />
+        <PageProject id="#Resume" />
+        <PageComment id="#About" />
+        <PageFooter id="#About" />
       </div>
     </div>
   );

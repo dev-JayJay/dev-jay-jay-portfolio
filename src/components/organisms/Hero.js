@@ -20,7 +20,7 @@ const Hero = () => {
             <br /> I'm <span>Dev-Jay-Jay,</span>
           </h5>
           <p>
-            a passionate and creative web developer. I specialize in crafting
+            a passionate and creative Software developer. I specialize in crafting
             beautiful and responsive websites using the latest technologies.
             With a keen eye for design and a love for coding, I strive to create
             engaging digital experiences that leave a lasting impression.
@@ -34,16 +34,16 @@ const Hero = () => {
             <Button text="Send a Message" />
           </div>
           <div className="IconsWrapper">
-            <a href="/">
+            <a href="https://web.facebook.com/profile.php?id=100073913353405">
               <FaSquareFacebook />
             </a>
-            <a href="/">
+            <a href="https://www.instagram.com/favouringjay/">
               <FaSquareInstagram  />
             </a>
-            <a href="/">
+            <a href="https://twitter.com/favouringjay/">
               <FaSquareXTwitter />
             </a>
-            <a href="/">
+            <a href="https://github.com/dev-jay-jay/">
               <FaSquareGithub />
             </a>
             <a href="/">
