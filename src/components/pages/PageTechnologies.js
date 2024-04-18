@@ -1,3 +1,4 @@
+import "./style.css";
 import React from "react";
 import TechnologiesCard from "../molecules/TechnologiesCard";
 
@@ -20,19 +21,19 @@ export default PageTechnologies;
 
 const Technology = [
   {
-    icon: "<>",
+    icon: "#",
     lang: "HTML",
   },
   {
-    icon: "#",
+    icon: "&#129529;",
     lang: "CSS",
   },
   {
-    icon: "</>",
+    icon: "#",
     lang: "JavaScript",
   },
   {
-    icon: "</>",
+    icon: "&#58443;",
     lang: "Git",
   },
   {
