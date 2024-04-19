@@ -26,7 +26,7 @@ const responsive = {
 
 const PageProject = () => {
   return (
-    <div className="ProjectPageWrapper">
+    <div id="Project" className="ProjectPageWrapper">
       <h5>Projects And Colaborations</h5>
       <Carousel
         responsive={responsive}

@@ -66,6 +66,7 @@
   font-size: 30px;
   margin: 10px 30px;
   transition: 0.5s;
+  position: fixed;
 }
 .menu:hover {
   cursor: pointer;
@@ -85,5 +86,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .hero {
+    margin: 47px 0 0 0;
+  }
 }

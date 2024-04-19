@@ -25,7 +25,7 @@ function App() {
         <ul>
           {nav.map((item, index) => (
             <>
-              <li key={index}>
+              <li onClick={() => setShowMenu(!showMenu)} key={index}>
                 <a href={item.route}>{item.link}</a>
               </li>
             </>
@@ -53,12 +53,14 @@ function App() {
         <div className="menu" onClick={() => setShowMenu(!showMenu)}>
           {showMenu ? <Button text="&#9776;" /> : <Button text="&larr;" />}
         </div>
-        <PageHero id="#Home" />
-        <PageAbout id="#About"/>
-        <PageTechnologies id="#Portfolio" />
-        <PageProject id="#Resume" />
-        <PageComment id="#About" />
-        <PageFooter id="#About" />
+        <div className="hero">
+          <PageHero />
+        </div>
+        <PageAbout />
+        <PageTechnologies />
+        <PageProject />
+        <PageComment />
+        <PageFooter />
       </div>
     </div>
   );
@@ -76,15 +78,15 @@ const nav = [
     route: "#About",
   },
   {
-    link: "Portfolio ",
-    route: "#Portfolio ",
+    link: "Technologies ",
+    route: "#Technologies ",
   },
   {
-    link: "Resume",
-    route: "#Resume",
+    link: "Project",
+    route: "#Project",
   },
   {
-    link: "Contact",
-    route: "#Contact",
+    link: "Comments",
+    route: "#Comment",
   },
 ];
