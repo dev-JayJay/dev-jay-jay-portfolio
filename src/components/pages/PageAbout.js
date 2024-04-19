@@ -3,7 +3,7 @@ import React from "react";
 
 const PageAbout = () => {
   return (
-    <div className="AboutWrapper">
+    <div id="About" className="AboutWrapper">
       <div className="AboutContainer">
       {/* First Section/ Col -1 */}
         <div className="ImageSection">

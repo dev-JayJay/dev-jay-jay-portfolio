@@ -3,7 +3,7 @@ import CommentCard from "../molecules/CommentCard";
 
 const PageComment = () => {
   return (
-    <div className="commentWrapper">
+    <div id="Comment"  className="commentWrapper">
         <h5>Reviews & Comments</h5>
       <div className="commentcontainer">
         {comment.map((item, index) => (

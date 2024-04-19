@@ -3,7 +3,7 @@ import Hero from '../organisms/Hero'
 
 const PageHero = () => {
   return (
-    <div className='HeroPageWraper'>
+    <div id="Home" className='HeroPageWraper'>
       <Hero />
     </div>
   )

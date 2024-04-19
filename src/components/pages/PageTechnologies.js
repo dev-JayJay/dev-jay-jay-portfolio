@@ -4,7 +4,7 @@ import TechnologiesCard from "../molecules/TechnologiesCard";
 
 const PageTechnologies = () => {
   return (
-    <div className="TechnologyWrapper">
+    <div id="Technologies" className="TechnologyWrapper">
       <h5>Technologies</h5>
       <div className="TechnologyContainer">
         {Technology.map((tech, index) => (

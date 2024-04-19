@@ -10,6 +10,7 @@
 
 /* About Page Component */
 .AboutWrapper {
+  transition: 0.5s;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -90,6 +91,7 @@
 }
 /* Technologies Page */
 .TechnologyWrapper {
+  transition: 0.5s;
   width: 100%;
   padding: 20px 0;
   background-color: rgba(228, 241, 251, 0.426);
@@ -113,6 +115,7 @@
 
 /* Comment Section */
 .commentWrapper {
+  transition: 0.5s;
     width: 100%;
 }
 .commentWrapper h5 {
@@ -136,6 +139,7 @@
 
 /* Project Card Style */ 
 .ProjectPageWrapper {
+  transition: 0.5s;
   width: 100%;
   margin: 0 auto;
 }
