@@ -1,12 +1,13 @@
 import "./App.css";
-import { useState } from "react";
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
 
 function App() {
-  const [showMenu, setShowMenu] = useState(true);
 
   return (
-    <div className="App">
-      <img src="image/checkbg-1.jpeg" alt=""/>
+    <div>
+     <NavBar />
+     <Hero />
     </div>
   );
 }
