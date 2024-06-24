@@ -77,7 +77,7 @@ const Technologies = () => {
         <div id="technologies">
             <div className="">
                 <SectionsSubHeaders text={`Technologies`}/>
-                <div className="w-[70%] my-7 mx-auto flex flex-row flex-wrap justify-evenly">
+                <div className="w-[75%] my-7 mx-auto flex flex-row flex-wrap justify-evenly">
                     {mappedTech}
                 </div>
             </div>
