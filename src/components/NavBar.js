@@ -42,7 +42,7 @@ const NavBar = () => {
         <div className='flex flex-row gap-14'>{mappedNad}</div>
         <div className='my-4'>
           <a href='https://github.com/dev-jayjay'>
-            <FaSquareGithub className='bg-white text-green-600 rounded-lg p-0 m-0 w-12 h-12' />
+            <FaSquareGithub className='bg-white text-green-500 rounded-lg p-0 m-0 w-12 h-12' />
           </a>
         </div>
       </div>
