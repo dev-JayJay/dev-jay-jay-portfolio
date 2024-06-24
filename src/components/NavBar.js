@@ -39,7 +39,7 @@ const NavBar = () => {
     <div>
       <div className='flex text-center items-center justify-evenly'>
         <p className='text-white font-semibold text-3xl'>Dev<span className='text-green-500'>JayJay</span></p>
-        <div className='flex flex-row gap-14'>{mappedNad}</div>
+        <div className='flex flex-row gap-14 hidden md:block'>{mappedNad}</div>
         <div className='my-4'>
           <a href='https://github.com/dev-jayjay'>
             <FaSquareGithub className='bg-white text-green-500 rounded-lg p-0 m-0 w-12 h-12' />
