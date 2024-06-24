@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaSquareGithub } from "react-icons/fa6";
 
 
 const nav = [
@@ -8,11 +9,11 @@ const nav = [
   },
   {
     link: "About",
-    route: "#About",
+    route: "#about",
   },
   {
     link: "Technologies ",
-    route: "#Technologies ",
+    route: "#technologies ",
   },
   {
     link: "Project",
@@ -28,7 +29,7 @@ const nav = [
 const mappedNad = nav.map((nav,indx) => (
   (
     <div key={indx} className='m-0 p-0 my-2'>
-      <a href={nav.route} className='text-white'>{nav.link}</a>
+      <a href={nav.route} className='text-white font-semibold'>{nav.link}</a>
     </div>
   )
 ));
@@ -39,7 +40,11 @@ const NavBar = () => {
       <div className='flex text-center items-center justify-evenly'>
         <p className='text-white font-semibold text-3xl'>Dev<span className='text-green-500'>JayJay</span></p>
         <div className='flex flex-row gap-14'>{mappedNad}</div>
-        <div className='text-white'>GitHub</div>
+        <div className='my-4'>
+          <a href='https://github.com/dev-jayjay'>
+            <FaSquareGithub className='bg-white text-green-600 rounded-lg p-0 m-0 w-12 h-12' />
+          </a>
+        </div>
       </div>
     </div>
   );
