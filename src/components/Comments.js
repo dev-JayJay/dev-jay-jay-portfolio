@@ -13,7 +13,7 @@ const Comments = () => {
                     {
                         commentsData.map((data,index) => {
                             return (
-                                <div key={index} className="w-[22%] mx-auto border border-green-700 rounded-xl p-2">
+                                <div key={index} className="w-[100%] mx-auto border border-green-700 rounded-xl p-2 md:w-[22%]">
                                     <img src={data.img} alt={data.name} className="w-[60%] mx-auto rounded-full my-3" />
                                     <h4 className="text-2xl text-green-500 font-semibold">{data.name}</h4>
                                     <span className="text-yellow-500 font-semibold">{data.role}</span>

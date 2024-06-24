@@ -28,11 +28,11 @@ const responsive = {
     const techmapped = itmes.tech;
     // const IconComponent = techmapped.icon;
     return(
-        <div className="flex flex-row gap-3 items-center" key={index}>
-            <div className="w-[50%] mx-auto h-[50vh] ">
+        <div className="flex flex-col gap-3 items-center md:flex-row" key={index}>
+            <div className="w-[90%] mx-auto h-[50vh] md:w-[50%]">
                 <img src={itmes.image} alt={itmes.title} className="w-full h-full py-4 " />
             </div>
-            <div className="w-[40%] mx-auto my-3">
+            <div className="w-[90%] mx-auto my-3 md:w-[40%]">
                 <h4 className="text-green-500 text-[18px] font-semibold">{itmes.type}</h4>
                 <h4 className="text-green-500 text-2xl font-semibold my-1">{itmes.title}</h4>
                 <p className="text-white opacity-75 mb-2">{itmes.text}</p>

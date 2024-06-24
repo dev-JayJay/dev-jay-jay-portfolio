@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
     return (
         <div>
-            <div className="w-[80%] mx-auto flex flex-row items-center gap-3">
+            <div className="w-[80%] mx-auto flex flex-col items-center gap-3 md:flex-row">
                 <div className="w-50%">
                     <div className="text-green-500 flex flex-col font-semibold mb-3">
                         <h4 className="text-6xl">Full Stack</h4>
