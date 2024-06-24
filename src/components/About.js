@@ -9,9 +9,9 @@ const About = () => {
                 <SectionsSubHeaders text={`About Me`} />
             </div>
             <div className="w-[95%] mx-auto flex flex-col items-center gap-10 md:flex-row">
-                <div className="w-[90%] h-[65vh] mx-auto md:w-[40%]">
-                    <img src='image/newJay.png' alt='myImage' className="w-[67%] h-[70vh] p-2 mx-auto border border-green-500 rounded-full" />
-                    <div className="w-[80%] mx-auto my-3">
+                <div className="w-[90%] h-[65vh] mx-auto md:w-[40%] md:h-[65vh]">
+                    <img src='image/newJay.png' alt='myImage' className="w-[75%] h-[55vh] p-2 mx-auto border border-green-500 rounded-full md:w-[67%] md:h-[70vh]" />
+                    <div className="w-[92%] mx-auto my-3 md:w-[80%]">
                         <span className="text-green-500 text-2xl font-semibold mb-2">John Jonathan Gaiya</span> <br/>
                         <span className="text-green-500 text-2xl font-semibold mb-2">BSC. Physical And Computing Science</span>
                     </div>
